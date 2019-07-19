@@ -1,5 +1,5 @@
 {
-  "name": "react-tweet-embed",
+  "name": "@jlengstorf/react-tweet-embed",
   "version": "0.0.1",
   "main": "index.js",
   "author": "Jason Lengstorf <jason@lengstorf.com>",
