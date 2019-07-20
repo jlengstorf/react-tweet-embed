@@ -1,14 +1,14 @@
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
+import { uglify } from 'rollup-plugin-uglify';
 
 export default {
   input: 'src/index.js',
   output: {
-    name: 'ReactTweetEmbed',
     file: 'index.js',
-    format: 'iife',
-    globals: { react: 'React' },
+    format: 'cjs',
+    esModule: false,
   },
-  plugins: [resolve(), babel({ exclude: 'node_modules/**' })],
+  plugins: [resolve(), babel({ exclude: 'node_modules/**' }), uglify()],
   external: ['react'],
 };
