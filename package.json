@@ -1,6 +1,6 @@
 {
   "name": "@jlengstorf/react-tweet-embed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "es/index.js",
   "author": "Jason Lengstorf <jason@lengstorf.com>",
